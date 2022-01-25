@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+    <castshadow/>
+    <group>
+        <variant file="biped/trunk_operator_left.xml" frequency="1" name="relax">
+            <mesh>skeletal/new/m_armor_nomad_a.dae</mesh>
+            <props>
+                <prop actor="props/units/heads/turk_head.xml" attachpoint="head"/>
+            </props>
+        </variant>
+    </group>
+    <group>
+        <variant frequency="2" name="Longhair">
+            <props>
+                <prop actor="" attachpoint="helmet"/>
+                <prop actor="props/units/heads/turk_head_bald_longhair.xml" attachpoint="head"/>
+            </props>
+        </variant>
+        <variant frequency="2" name="Helmet_iron">
+            <props>
+                <prop actor="props/units/helmets/turk_hide_iron.xml" attachpoint="helmet"/>
+            </props>
+        </variant>
+        <variant frequency="5" name="Helmet_cloth">
+            <props>
+                <prop actor="props/units/helmets/turk_cloth.xml" attachpoint="helmet"/>
+            </props>
+        </variant>
+        <variant frequency="5" name="Helmet_b">
+            <props>
+                <prop actor="props/units/helmets/turk_hide.xml" attachpoint="helmet"/>
+            </props>
+        </variant>
+    </group>
+        <group>
+        <variant file="clothes/turk/uniform_a_05.xml"/>
+        <variant file="clothes/turk/uniform_a_06.xml"/>
+        <variant file="clothes/turk/uniform_a_07.xml"/>
+    </group>
+    <group>
+        <variant frequency="1" name="Idle"/>
+        <variant file="biped/death_infantry.xml"/>
+    </group>
+    <material>player_trans.xml</material>
+</actor>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="structures/turk/corral">
+  <Footprint replace="">
+    <Circle radius="15.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
+  </Health>
+  <Upgrade>
+    <CorralReconstructed>
+      <Entity>structures/turk/corral</Entity>
+      <Cost>
+        <wood>100</wood>
+      </Cost>
+      <Time>25</Time>
+    </CorralReconstructed>
+  </Upgrade>
+  <ProductionQueue disable=""/>
+  <BuildRestrictions>
+    <Territory>own neutral</Territory>
+  </BuildRestrictions>
+  <TerritoryDecay disable=""/>
+  <Identity>
+    <Civ>turk</Civ>
+  </Identity>
+  <Obstruction>
+    <Static width="26.0" depth="26.0"/>
+  </Obstruction>
+  <VisualActor>
+    <ConstructionPreview disable=""/>
+    <Actor>structures/turk/corral_empty.xml</Actor>
+  </VisualActor>
+</Entity>

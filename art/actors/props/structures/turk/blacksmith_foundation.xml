@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="turk_market">
+      <mesh>structural/foundation/turk_blacksmith_foundation_a.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant>
+      <textures>
+        <texture file="structural/turk_structure.png" name="baseTex"/>
+        <texture file="structural/turk_structure_norm.png" name="normTex"/>
+        <texture file="structural/turk_structure_spec.png" name="specTex"/>
+      </textures>
+      <props>
+        <prop actor="particle/construction_dust.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans_parallax_spec.xml</material>
+</actor>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="turk_temple">
+      <mesh>structural/foundation/turk_temple_foundation_b.dae</mesh>
+      <textures>
+        <texture file="structural/turk_structure.png" name="baseTex"/>
+        <texture file="structural/turk_structure_norm.png" name="normTex"/>
+        <texture file="structural/turk_structure_spec.png" name="specTex"/>
+        <texture file="structural/ao/turk_temple_ao.png" name="aoTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_ao_parallax_spec.xml</material>
+</actor>

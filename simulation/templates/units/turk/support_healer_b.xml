@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_healer">
+  <Identity>
+    <Civ>turk</Civ>
+    <SpecificName>Mongolian Shaman</SpecificName>
+    <SelectionGroupName>units/turk/support_healer_b</SelectionGroupName>
+    <Icon>units/champion_healer.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/turk/healer.xml</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/turk/healer.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,30 @@
+{
+	"type": "global",
+	"affects": [
+		"Cavalry"
+	],
+	"affectedPlayers": [
+		"ExclusiveMutualAlly"
+	],
+	"civ": "turk",
+	"modifications": [
+		{
+			"value": "Cost/Resources/food",
+			"multiply": 0.85
+		},
+		{
+			"value": "Cost/Resources/wood",
+			"multiply": 0.85
+		},
+		{
+			"value": "Cost/Resources/metal",
+			"multiply": 0.85
+		},
+		{
+			"value": "Cost/Resources/stone",
+			"multiply": 0.85
+		}
+	],
+	"auraName": "Horse Breeding",
+	"auraDescription": "-15% cavalry tech cost of allies."
+}

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_javelineer">
+  <Attack>
+    <Ranged>
+      <Damage>
+        <Hack>0</Hack>
+        <Pierce>9.0</Pierce>
+        <Crush>0</Crush>
+      </Damage>
+      <MaxRange>30.0</MaxRange>
+      <MinRange>0.0</MinRange>
+      <Projectile>
+        <Speed>75.0</Speed>
+        <Spread>1.5</Spread>
+      </Projectile>
+      <PrepareTime>500</PrepareTime>
+      <RepeatTime>1000</RepeatTime>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <Resources>
+      <food>50</food>
+      <wood>30</wood>
+    </Resources>
+  </Cost>
+  <Builder>
+    <Entities datatype="tokens">
+      -structures/{civ}/wonder
+      -structures/{civ}/dock
+      -structures/{civ}/field
+      -structures/{civ}/farmstead
+      structures/{civ}/animalfarm
+    </Entities>
+  </Builder>
+  <Health>
+    <Max>35</Max>
+  </Health>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Pierce>2</Pierce>
+        <Hack>3</Hack>
+        <Crush>1</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <ResourceGatherer>
+    <MaxDistance>2.0</MaxDistance>
+    <BaseSpeed>1.0</BaseSpeed>
+    <Rates>
+      <food.fruit>1</food.fruit>
+      <food.grain>0.5</food.grain>
+      <food.meat>1</food.meat>
+      <wood.tree>0.7</wood.tree>
+      <wood.ruins>5</wood.ruins>
+      <stone.rock>0.35</stone.rock>
+      <stone.ruins>2</stone.ruins>
+      <metal.ore>0.35</metal.ore>
+    </Rates>
+  </ResourceGatherer>
+  <Promotion disable=""/>
+  <Identity>
+    <Civ>turk</Civ>
+    <SpecificName>turk Woman</SpecificName>
+    <Icon>units/spart_support_female_citizen.png</Icon>
+    <SelectionGroupName>units/turk/support_female_citizen</SelectionGroupName>
+    <Phenotype>female</Phenotype>
+    <Classes datatype="tokens">FemaleCitizen</Classes>
+    <VisibleClasses datatype="tokens">Citizen Worker</VisibleClasses>
+    <Formations disable=""/>
+  </Identity>
+  <VisualActor>
+    <Actor>units/turk/female_citizen.xml</Actor>
+  </VisualActor>
+</Entity>

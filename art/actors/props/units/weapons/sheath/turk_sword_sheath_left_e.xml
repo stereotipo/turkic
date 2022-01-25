@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+    <castshadow/>
+    <group>
+        <variant frequency="100" name="Base">
+            <textures>
+                <texture file="props/quivers/turk_quiver.png" name="baseTex"/>
+                <texture file="props/quivers/turk_quiver_norm.png" name="normTex"/>
+                <texture file="props/quivers/turk_quiver_spec.png" name="specTex"/>
+            </textures>
+        </variant>
+    </group>
+    <group>
+        <variant name="med">
+            <mesh>props/weapons/sheath/weap_turk_sword_a_sheath.dae</mesh>
+        </variant>
+        <variant name="light">
+            <mesh>props/weapons/sheath/weap_turk_sword_b_sheath.dae</mesh>
+        </variant>
+        <variant name="Large">
+            <mesh>props/weapons/sheath/weap_turk_sword_c_sheath.dae</mesh>
+        </variant>
+        <variant name="Small">
+            <mesh>props/weapons/sheath/weap_turk_sword_d_sheath.dae</mesh>
+        </variant>
+    </group>
+    <material>player_trans_spec.xml</material>
+</actor>

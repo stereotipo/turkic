@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+    <castshadow/>
+    <group>
+        <variant name="Skin_a">
+            <mesh>props/shields/turk_shield_handler.dae</mesh>
+            <textures>
+                <texture file="props/shields/shield_wood.png" name="baseTex"/>
+            </textures>
+        </variant>
+    </group>
+</actor>

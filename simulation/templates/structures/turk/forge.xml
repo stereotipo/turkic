@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_forge">
+  <Footprint replace="">
+    <Circle radius="16.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <ProductionQueue>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/{civ}/support_wagon
+      units/{civ}/siege_ram_forge
+    </Entities>
+    <Technologies datatype="tokens">
+      unlock_champion_units_turk
+    </Technologies>
+  </ProductionQueue>
+  <BuildRestrictions>
+    <Territory>own neutral</Territory>
+  </BuildRestrictions>
+  <Upgrade>
+    <BlacksmithPacked>
+      <Entity>structures/turk/forge_packed</Entity>
+      <Time>45</Time>
+      <RequiredTechnology>nomadism</RequiredTechnology>
+    </BlacksmithPacked>
+  </Upgrade>
+  <Identity>
+    <Civ>turk</Civ>
+  </Identity>
+  <Obstruction>
+    <Static width="25.0" depth="25.0"/>
+  </Obstruction>
+  <Population>
+    <Bonus>2</Bonus>
+  </Population>
+  <TerritoryDecay disable=""/>
+  <VisualActor>
+    <ConstructionPreview disable=""/>
+    <Actor>structures/turk/blacksmith.xml</Actor>
+    <FoundationActor>structures/turk/blacksmith_foundation.xml</FoundationActor>
+  </VisualActor>
+</Entity>

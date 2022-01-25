@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_ranged_archer">
+  <Attack>
+    <Ranged>
+      <Damage>
+        <Hack>0</Hack>
+        <Pierce>9.4</Pierce>
+        <Crush>0</Crush>
+      </Damage>
+      <MaxRange>72.0</MaxRange>
+      <MinRange>2.0</MinRange>
+      <Projectile>
+        <Speed>75.0</Speed>
+        <Spread>1.5</Spread>
+      </Projectile>
+      <PrepareTime>500</PrepareTime>
+      <RepeatTime>1000</RepeatTime>
+    </Ranged>
+  </Attack>
+  <Identity>
+    <Civ>turk</Civ>
+    <SelectionGroupName>units/turk/cavalry_archer</SelectionGroupName>
+    <Icon>units/turk_cav_archer.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/turk/cavalry_archer_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/turk/cavalry_archer_b_m.xml</Actor>
+  </VisualActor>
+</Entity>

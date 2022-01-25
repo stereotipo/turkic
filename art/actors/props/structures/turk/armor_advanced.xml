@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+    <castshadow/>
+    <group>
+        <variant frequency="1" name="No_sleeves">
+            <mesh>props/turk_advanced_armor.dae</mesh>
+        </variant>
+    </group>
+    <group>
+        <variant frequency="1" name="Cloth_A">
+            <textures>
+                <texture file="skeletal/turk_advanced_d.png" name="baseTex"/>
+                <texture file="skeletal/turk_advanced_norm.png" name="normTex"/>
+                <texture file="skeletal/turk_elite_spec.png" name="specTex"/>
+            </textures>
+        </variant>
+        <variant frequency="1" name="Cloth_B">
+            <textures>
+                <texture file="skeletal/turk_advanced_b.png" name="baseTex"/>
+                <texture file="skeletal/turk_advanced_norm.png" name="normTex"/>
+                <texture file="skeletal/turk_elite_spec.png" name="specTex"/>
+            </textures>
+        </variant>
+        <variant frequency="1" name="Cloth_C">
+            <textures>
+                <texture file="skeletal/turk_advanced_c.png" name="baseTex"/>
+                <texture file="skeletal/turk_advanced_norm.png" name="normTex"/>
+                <texture file="skeletal/turk_elite_spec.png" name="specTex"/>
+            </textures>
+        </variant>
+    </group>
+    <material>player_trans_parallax_spec.xml</material>
+</actor>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/turk/champion_cavalry">
+  <Identity>
+    <RequiredTechnology>unlock_champion_units_turk</RequiredTechnology>
+  </Identity>
+</Entity>

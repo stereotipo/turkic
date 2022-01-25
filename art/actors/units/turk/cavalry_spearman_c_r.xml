@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+    <castshadow/>
+    <group>
+        <variant>
+            <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
+            <props>
+                <prop actor="props/units/heads/turk_head.xml" attachpoint="head"/>
+                <prop actor="props/units/weapons/spear/turk_spear.xml" attachpoint="weapon_R"/>
+                <prop actor="props/units/weapons/sheath/turk_sword_sheath_left.xml" attachpoint="sheath_L"/>
+                <prop actor="props/units/helmets/turk_neck_guard.xml" attachpoint="head"/>
+                <prop actor="props/units/quivers/turk_quiver_cavalry_right_b.xml" attachpoint="sheath_R"/>
+                <prop actor="props/units/helmets/turk_warlord.xml" attachpoint="helmet"/>
+            </props>
+        </variant>
+    </group>
+    <group>
+        <variant file="clothes/turk/warlord.xml"/>
+    </group>
+<!--    <group>
+        <variant frequency="5" name="Helmet_a">
+            <props>
+                <prop actor="props/units/helmets/turk_warlord.xml" attachpoint="helmet"/>
+            </props>
+        </variant>
+    </group>-->
+    <group>
+        <variant  file="biped/rider/cavalry/base_spearman_relax_01.xml" frequency="1" name="relax"/>
+        <variant file="biped/rider/death_shield.xml"/>
+    </group>
+    <material>player_trans_spec.xml</material>
+</actor>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_cavalry_spearman">
+  <Identity>
+    <Civ>turk</Civ>
+    <GenericName>turk Warlord</GenericName>
+    <SelectionGroupName>units/turk/champion_cavalry</SelectionGroupName>
+    <Icon>units/turk_champion_cavalry.png</Icon>
+    <RequiredTechnology>unlock_champion_units_turk</RequiredTechnology>
+  </Identity>
+  <Upgrade>
+    <Ranged>
+      <Entity>units/turk/champion_cavalry_archer</Entity>
+      <Time>10</Time>
+      <Tooltip>Switch Weapon.</Tooltip>
+    </Ranged>
+  </Upgrade>
+  <VisualActor>
+    <Actor>units/turk/cavalry_spearman_c_m.xml</Actor>
+  </VisualActor>
+</Entity>

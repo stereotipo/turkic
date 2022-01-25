@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant>
+      <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/turk_head.xml" attachpoint="head"/>
+        <prop actor="props/units/weapons/bow/turk_cav_bow.xml" attachpoint="weapon_bow"/>
+        <prop actor="props/units/weapons/sheath/turk_sword_sheath_right.xml" attachpoint="sheath_R"/>
+        <prop actor="props/units/helmets/turk_neck_guard.xml" attachpoint="head"/>
+        <prop actor="props/units/quivers/turk_quiver_cavalry_left.xml" attachpoint="sheath_L"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant file="clothes/turk/warlord.xml"/>
+  </group>
+  <group>
+    <variant frequency="5" name="Helmet_a">
+      <props>
+        <prop actor="props/units/helmets/turk_warlord.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/rider/cavalry/base_archer_relax_hip.xml" frequency="1" name="relax-hip"/>
+    <variant file="biped/rider/carry_meat.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/rider/cavalry/attack_ranged_archer_hip.xml"/>
+    <variant file="biped/rider/promotion_shield.xml"/>
+    <variant file="biped/rider/attack_slaughter_shield_turk.xml"/>
+    <variant file="biped/gather_meat.xml"/>
+    <variant file="biped/rider/death_ranged.xml"/>
+  </group>
+  <material>player_trans_spec.xml</material>
+</actor>

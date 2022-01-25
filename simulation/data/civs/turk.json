@@ -1,0 +1,80 @@
+{
+	"Code": "turk",
+	"Culture": "turk",
+	"Name": "Turkic Khaganate",
+	"Emblem": "session/portraits/emblems/emblem_turk.png",
+	"History": "The turk were formidable warriors whose most fearsome weapon was the double-curved bow with bone ends. They lived on horseback, from which they took advantage of everything, they dressed and wore leather, they wore helmet, breastplate, shield along with the quiver and curved saber. Their squads evolved to the sound of hunting horns and their charges and sudden withdrawals surprised their enemies. They were careful not to ever sell whole horses or mares to China. During these centuries, the turk (hsiung-nu) gathered under their rule other steppe tribes, forming a large confederation. In 209 BC, just three years before the founding of the Han Dynasty, the turk were assembled into a powerful confederation under a new chanyu.",
+	"Music": [],
+	"CivBonuses": [
+		{
+			"Name": "Nomadic Tribes",
+			"History": "turk were nomadic pastoral people.",
+			"Description": "Ignore phase requirements."
+		}
+	],
+	"StartEntities": [
+		{
+			"Template": "structures/turk/civil_centre"
+		},
+		{
+			"Template": "units/turk/support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/turk/infantry_archer_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/turk/infantry_spearman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/turk/cavalry_archer_b"
+		},
+		{
+			"Template": "units/turk/support_wagon"
+		}
+	],
+	"Formations": [
+		"special/formations/null",
+		"special/formations/box",
+		"special/formations/column_closed",
+		"special/formations/line_closed",
+		"special/formations/column_open",
+		"special/formations/line_open",
+		"special/formations/flank",
+		"special/formations/skirmish",
+		"special/formations/wedge",
+		"special/formations/battle_line"
+	],
+	"AINames": [
+		"Mòdú",
+		"Tóumàn",
+		"Lǎoshàng"
+	],
+	"SkirmishReplacements": {
+		"skirmish/units/default_support_female_citizen": "units/turk/support_female_citizen",
+		"skirmish/units/default_cavalry": "units/turk/cavalry_archer_b",
+		"skirmish/units/default_infantry_ranged_b": "units/turk/infantry_archer_b",
+		"skirmish/structures/default_corral": "structures/turk/corral",
+		"skirmish/structures/default_defense_tower": "",
+		"skirmish/structures/default_fortress": "",
+		"skirmish/structures/default_house_5": "structures/turk/house_unpacked",
+		"skirmish/structures/default_house_10": "",
+		"skirmish/structures/default_wall_tower": "",
+		"skirmish/structures/default_wall_gate": "",
+		"skirmish/structures/default_wall_short": "",
+		"skirmish/structures/default_wall_medium": "",
+		"skirmish/structures/default_wall_long": "",
+		"skirmish/structures/default_field": "",
+		"skirmish/structures/default_farmstead": "structures/turk/market",
+		"skirmish/structures/default_market": "structures/turk/market",
+		"skirmish/structures/default_storehouse": "structures/turk/storehouse",
+		"skirmish/structures/default_dock": "",
+		"skirmish/units/special_starting_unit": "units/turk/support_wagon",
+		"skirmish/structures/default_civil_centre": "structures/turk/civil_centre",
+		"skirmish/structures/default_barracks": "structures/turk/barracks",
+		"skirmish/structures/default_temple": "structures/turk/temple"
+	},
+	"SelectableInGameSetup": true
+}
