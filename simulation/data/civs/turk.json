@@ -75,9 +75,13 @@
 		"special/formations/battle_line"
 	],
 	"AINames": [
-		"Mòdú",
-		"Tóumàn",
-		"Lǎoshàng"
+		"Bumin",
+		"Amrak",
+		"Istämi",
+		"Tardu",
+		"Tengri Qaghan",
+		"Tulan Qaghan",
+		"Külüg Sibir"
 	],
 	"SkirmishReplacements": {
 		"skirmish/units/default_support_female_citizen": "units/turk/support_female_citizen",

@@ -8,7 +8,6 @@
       -structures/{civ}/wallset_stone
       -structures/{civ}/dock
       -structures/{civ}/sentry_tower
-      -structures/{civ}/outpost
       -structures/{civ}/field
       -structures/{civ}/farmstead
     </Entities>

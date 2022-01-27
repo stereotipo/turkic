@@ -1,2 +1,2 @@
-# Turkic Khaganate
-Turkic standalone mod for 0AD
+# turk
+turk standalone mod for 0AD
