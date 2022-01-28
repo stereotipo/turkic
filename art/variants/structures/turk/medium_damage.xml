@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<variant file="structures/destruction_medium.xml">
+<variant name="mediumdamage" frequency="0">
   <textures>
     <texture file="structural/turk_structure_damaged.png" name="baseTex"/>
      <!-- <texture file="structural/kart_struct_damaged_heavy_norm.png" name="normTex"/> -->
