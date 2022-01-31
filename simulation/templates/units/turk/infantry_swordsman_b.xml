@@ -16,13 +16,13 @@
   <Identity>
     <Civ>turk</Civ>
     <SelectionGroupName>units/turk/infantry_swordsman</SelectionGroupName>
-    <GenericName>turk Axeman</GenericName>
+    <GenericName>turk swordsman</GenericName>
     <Icon>units/turk_infantry_swordsman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/turk/infantry_swordsman_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/turk/infantry_axeman_b.xml</Actor>
+    <Actor>units/turk/infantry_swordsman_b.xml</Actor>
   </VisualActor>
 </Entity>

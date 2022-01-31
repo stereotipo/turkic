@@ -22,10 +22,19 @@
     <SelectionGroupName>units/turk/cavalry_archer</SelectionGroupName>
     <Icon>units/turk_cav_archer.png</Icon>
   </Identity>
+
+  
   <Promotion>
     <Entity>units/turk/cavalry_archer_a</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/turk/cavalry_archer_b_m.xml</Actor>
   </VisualActor>
+  <Sound>
+    <SoundGroups>
+      <order_walk>actor/mounted/movement/walk.xml</order_walk>
+      <walk>actor/mounted/movement/walk.xml</walk>
+      <run>actor/mounted/movement/walk.xml</run>
+    </SoundGroups>
+  </Sound>
 </Entity>
