@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_ship_bireme">
+  <Identity>
+    <Civ>tang</Civ>
+    <SpecificName>Zhàn Chuán</SpecificName>
+    <Icon>units/tang/ship_bireme.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/tang/bireme.xml</Actor>
+  </VisualActor>
+  <Footprint>
+    <Square width="14.0" depth="36.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+</Entity>

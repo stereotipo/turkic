@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_arsenal">
+  <GarrisonHolder>
+    <List datatype="tokens">Minister</List>
+  </GarrisonHolder>
+  <Identity>
+      <Civ>tang</Civ>
+    <SpecificName>Bīnggōng Chǎng</SpecificName>
+  </Identity>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/siege_shoushe
+      units/{civ}/siege_mangonel_packed
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/tang/arsenal.xml</Actor>
+  </VisualActor>
+</Entity>

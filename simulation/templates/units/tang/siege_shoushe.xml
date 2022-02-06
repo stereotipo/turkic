@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_siege_boltshooter">
+  <Attack>
+    <Ranged>
+      <Damage>
+        <Crush>10</Crush>
+      </Damage>
+      <Splash>
+        <FriendlyFire>false</FriendlyFire>
+        <Damage>
+          <Crush>3</Crush>
+        </Damage>
+      </Splash>
+    </Ranged>
+  </Attack>
+  <Footprint replace="">
+    <Square width="5.0" depth="8.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>tang</Civ>
+    <SpecificName>Nǔ Chē</SpecificName>
+    <Icon>units/tang/siege_boltshooter.png</Icon>
+  </Identity>
+  <Pack disable=""/>
+  <Promotion disable=""/>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>128x256/rounded_rectangle.png</MainTexture>
+        <MainTextureMask>128x256/rounded_rectangle_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+  <VisualActor>
+    <Actor>units/tang/siege_shoushe.xml</Actor>
+  </VisualActor>
+</Entity>

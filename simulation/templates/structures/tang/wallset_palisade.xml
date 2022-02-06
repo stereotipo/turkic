@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_wallset">
+  <Identity>
+    <GenericName>Bamboo Stockade</GenericName>
+    <Tooltip>Wall off an area. Build in own or neutral territory.</Tooltip>
+    <VisibleClasses datatype="tokens">-Wall Palisade</VisibleClasses>
+    <Icon>structures/palisade_wall.png</Icon>
+    <RequiredTechnology>phase_village</RequiredTechnology>
+  </Identity>
+  <WallSet>
+    <MaxTowerOverlap>0.95</MaxTowerOverlap>
+    <MinTowerOverlap>0.05</MinTowerOverlap>
+    <Templates>
+      <Tower>structures/tang/palisades_tower</Tower>
+      <Gate>structures/tang/palisades_gate</Gate>
+      <Fort>structures/tang/palisades_tower</Fort>
+      <WallLong>structures/tang/palisades_long</WallLong>
+      <WallMedium>structures/tang/palisades_medium</WallMedium>
+      <WallShort>structures/tang/palisades_short</WallShort>
+      <WallCurves>structures/tang/palisades_curve</WallCurves>
+    </Templates>
+  </WallSet>
+</Entity>
