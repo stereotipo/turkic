@@ -5,13 +5,12 @@
     <variant frequency="1" name="Chinese CC Bixie statues">
       <mesh>structural/han_cc_bixie.dae</mesh>
       <textures>
-        <texture file="structural/han_bixie.png" name="baseTex"/>
-        <texture file="structural/han_bixie_norm.png" name="normTex"/>
-        <texture file="structural/han_bixie_spec.png" name="specTex"/>
-        <texture file="structural/ao/han_civic_center.png" name="aoTex"/>
+        <texture file="structural/chin_bixie.png" name="baseTex"/>
+        <texture file="structural/chin_bixie_norm.png" name="normTex"/>
+        <texture file="structural/chin_bixie_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>
 
-  <material>player_trans_ao_parallax_spec.xml</material>
+  <material>player_trans_parallax_spec.xml</material>
 </actor>
